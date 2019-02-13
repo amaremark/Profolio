@@ -1,0 +1,61 @@
+body{
+	background-color: gray;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border-top:5px solid white;
+border-left: 5px solid white;
+border-right: 5px solid white;
+border-bottom: 5px solid white;
+margin-top: 10%;
+margin-right: 25%;
+margin-left: 25%;
+}
+img{
+    margin: 5px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.9)
+}
+h1{
+	color: white;
+	font-family: 'Charm', cursive;
+
+}
+h3{
+	color: white;
+	font-family: 'Charm', cursive;
+}
+p{
+	background-color:;
+	color: white;
+	font-family: 'Charm', cursive;
+}
+ul{
+border: 1px solid black;
+border-radius: 100%;
+list-style: none;
+justify-content: center;
+
+
+}
+.new{
+	width: 50px;
+	height: 50px;
+}
+aside{
+	color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
